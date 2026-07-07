@@ -1,2 +1,32 @@
-# aio-bridge-privacy
-Privacy Policy for AIO Bridge browser extension.
+经常在网页、AI 画布、Photoshop 和 Eagle 之间反复下载、导入、上传图片吗？
+使用「AIO Bridge」插件，你可以把创作素材在不同工具之间快速传输。看到灵感图片，轻轻一点，就能发送到 Photoshop、Eagle、无限画布或 AI 对话框，让创作流程更顺畅。
+
+·网页图片直达 Photoshop
+
+在网页中看到合适的图片时，无需手动下载。将鼠标移动到图片上，点击 AIO 悬浮按钮，即可把当前图片发送到 Photoshop，并自动导入为新图层。
+
+·灵感素材快速收藏到 Eagle
+
+浏览 Pinterest、素材站、AI 图片站时，遇到喜欢的图片可以直接发送到 Eagle 素材库。无需保存到本地再导入，灵感可以被即时收藏和整理。
+
+·图片发送到 AI 画布
+
+支持将网页、Photoshop 或 Eagle 中的图片发送到 TapNow、Lovart、LibTV、即梦 Canvas、星流等画布工具。选择目标后即可快速上传，让图片继续参与生成、参考、排版或创作。
+
+·图片发送到 AI 对话
+
+当你需要让 AI 分析图片、生成提示词、理解画面内容时，可以把图片发送到支持的 Hover / 对话场景中。让图片从素材直接进入创作讨论，不再反复拖拽上传。
+
+·Photoshop 图层一键发送
+
+在 Photoshop 中选择当前图层，就可以通过 AIO Bridge 发送到网页画布、AI 对话或 Eagle。适合把设计稿、角色图、透明素材、局部元素继续传到 AI 工具中使用。
+
+·Eagle 素材连接整个创作流
+
+在 Eagle 中选择图片素材，即可发送到 Photoshop、网页画布或 AI 对话场景。你的素材库不再只是收藏夹，而是可以直接参与创作的素材中枢。
+
+·本地 Bridge 安全连接
+
+AIO Bridge 通过本地服务连接浏览器、Photoshop 与 Eagle。保持 Bridge 运行后，各端插件即可互相识别并传输图片，让创作工具自然衔接。
+
+在「AIO Bridge」的协助下，每一张图片都可以从网页进入 Photoshop，从 Eagle 进入画布，从图层进入 AI 对话。减少重复下载和上传，把时间留给真正的创作。
