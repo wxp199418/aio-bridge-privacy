@@ -1,7 +1,5 @@
 # AIO Bridge
 
-![AIO](assets/aio-wordmark.png)
-
 ![AIO Bridge](assets/aio-bridge-screenshot.jpg)
 
 ## 高清素材一键送达
