@@ -257,27 +257,56 @@
 
       .flows {
         display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 24px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
       }
 
       .flow {
-        display: grid;
-        gap: 10px;
         padding: 20px;
         border-radius: 14px;
-        background: #101827;
-        color: #fff;
+        background: #ffffff;
+        border: 1px solid var(--line);
       }
 
-      .flow span {
-        color: #9aa7bb;
+      .flow-route {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+        color: #64748b;
         font-size: 13px;
         font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .flow-route span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 0 10px;
+        border-radius: 9px;
+        background: #f6f8fb;
+        border: 1px solid #e5ebf2;
+        color: #475569;
+      }
+
+      .flow-route b {
+        color: #ff4b14;
       }
 
       .flow strong {
+        display: block;
+        margin-bottom: 8px;
         font-size: 18px;
+        color: #111827;
+        line-height: 1.35;
+      }
+
+      .flow p {
+        margin: 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.65;
       }
 
       .privacy {
@@ -374,6 +403,11 @@
         .features,
         .flows {
           grid-template-columns: 1fr;
+        }
+
+        .flow-route {
+          white-space: normal;
+          flex-wrap: wrap;
         }
 
         .privacy {
@@ -479,10 +513,36 @@
             <p>从发现灵感到继续编辑，AIO Bridge 让图片不再卡在某一个软件里。</p>
           </div>
           <div class="flows">
-            <div class="flow"><span>网页素材</span><strong>发送到 Photoshop</strong></div>
-            <div class="flow"><span>网页图片</span><strong>保存到 Eagle</strong></div>
-            <div class="flow"><span>PS 图层</span><strong>发送到 AI 画布</strong></div>
-            <div class="flow"><span>Eagle 素材</span><strong>发送到 Hover</strong></div>
+            <article class="flow">
+              <div class="flow-route"><span>网页图片</span><b>→</b><span>Photoshop</span></div>
+              <strong>网页素材直接进入 PS</strong>
+              <p>在图片网站或 AI 画布中选中图片，一键发送到 Photoshop，自动导入为新图层继续编辑。</p>
+            </article>
+            <article class="flow">
+              <div class="flow-route"><span>网页图片</span><b>→</b><span>Eagle</span></div>
+              <strong>灵感图片快速入库</strong>
+              <p>浏览素材、参考图或 AI 结果时，直接保存到 Eagle，形成可复用的个人素材库。</p>
+            </article>
+            <article class="flow">
+              <div class="flow-route"><span>网页 / PS / Eagle</span><b>→</b><span>AI 画布</span></div>
+              <strong>发送到无限画布</strong>
+              <p>把网页图片、PS 图层或 Eagle 素材发送到 TapNow、Lovart、LibTV、即梦 Canvas、星流等画布。</p>
+            </article>
+            <article class="flow">
+              <div class="flow-route"><span>网页 / PS / Eagle</span><b>→</b><span>Hover</span></div>
+              <strong>进入 AI 对话场景</strong>
+              <p>将图片发送到 GPT、即梦等对话或 Hover 场景，用于画面分析、提示词生成和创意讨论。</p>
+            </article>
+            <article class="flow">
+              <div class="flow-route"><span>Photoshop 图层</span><b>→</b><span>网页 / Eagle</span></div>
+              <strong>设计结果继续流转</strong>
+              <p>选中当前图层后发送到画布、Hover 或 Eagle，让设计稿和透明素材继续参与生成与整理。</p>
+            </article>
+            <article class="flow">
+              <div class="flow-route"><span>Eagle 素材</span><b>→</b><span>PS / 网页</span></div>
+              <strong>素材库成为创作中枢</strong>
+              <p>从 Eagle 选中图片后发送到 Photoshop、AI 画布或 Hover，不再需要反复导出和拖拽上传。</p>
+            </article>
           </div>
         </section>
 
