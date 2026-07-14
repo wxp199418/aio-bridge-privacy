@@ -31,3 +31,6 @@ AIO Bridge 是一款本地创意工作流工具，用于在网页、Photoshop、
 ## 隐私政策
 
 请查看 GitHub Pages 首页中的完整隐私政策说明。
+
+## 下载地址
+https://pan.baidu.com/s/1hGy6nlp7f9jvB_Tw5VbMbw?pwd=wsh8
